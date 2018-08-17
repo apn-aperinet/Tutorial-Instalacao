@@ -31,6 +31,9 @@ Acompanhar este tutorial em vídeo:
 * Baixar o arquivo [dependencias pip](pip-requirements)
 * sudo apt-get install -y --no-install-recommends $(grep -v '^#' apt-requirements)
 * sudo pip install --upgrade pip
+* sudo apt-get install python-setuptools -- Para Python 3.x | * sudo apt-get install python3-setuptools
+* pip install --no-binary :all: psycopg2 #retirar da dependencia pip
+* pip install --no-binary :all: openpyxl #retirar da dependencia pip
 * sudo pip install -r pip-requirements
 * sudo npm install -g less
 * sudo ln -s /usr/bin/nodejs /usr/bin/node
