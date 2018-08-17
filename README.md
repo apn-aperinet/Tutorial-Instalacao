@@ -1,4 +1,4 @@
-# Tutorial Instalação para Desenvolvedores
+# Tutorial Instalação Odoo para Desenvolvedores
 
 
 Disponível atualização automática em batch para sistemas debian based(apt-get).
@@ -21,7 +21,8 @@ Acompanhar este tutorial em vídeo:
     * sudo su postgres
     * psql
     * alter user postgres with password '123';
-    * Acessar o pgadmin com o usuário postgres e criar um usuário para o Odoo por lá
+    * \q
+    * Acessar o pgadmin com o usuário postgres e criar um usuário para o Odoo.
 
 
 # 2º Passo - Baixar as dependências do Odoo
